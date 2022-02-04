@@ -56,10 +56,10 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 
 		
 <div class="input-prepend">
-		<input style="height:40px;" type="text" name="username" Placeholder="Username" required/><br>
+		<input style="height:40px;" type="text" name="user" Placeholder="Username" required/><br>
 </div>
 <div class="input-prepend">
-	<input type="password" style="height:40px;" name="password" Placeholder="Password" required/><br>
+	<input type="pass" style="height:40px;" name="pass" Placeholder="Password" required/><br>
 		</div>
 		<div class="qwe">
 		 <button class="btn btn-large btn-primary btn-block pull-right" href="dashboard.html" type="submit"><i class="icon-signin icon-large"></i> Login</button>

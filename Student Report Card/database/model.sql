@@ -70,9 +70,8 @@ INSERT INTO `admin` (`id`, `student_id`, `name`, `last_name`, `report`, `yoa`, `
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL,
   `name` varchar(55) NOT NULL,
-  `position` varchar(55) NOT NULL,
-  `username` varchar(55) NOT NULL,
-  `password` varchar(55) NOT NULL
+  `user` varchar(55) NOT NULL,
+  `pass` varchar(55) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --

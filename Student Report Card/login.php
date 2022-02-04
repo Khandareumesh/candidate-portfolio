@@ -28,10 +28,6 @@
 		return mysqli_real_escape_string($link,$str);
 	}
 	
-	//Sanitize the POST values
-	$login = clean($_POST['user']);
-	$password = clean($_POST['pass']);
-	
 	
 	//If there are input validations, redirect back to the login form
 	if($errflag) {
@@ -41,7 +37,7 @@
 	}
 	
 	//Create query
-	$qry="SELECT * FROM user WHERE user='$login' AND password='$password'";
+	$qry="SELECT * FROM admin WHERE user='$login' AND pass='$password'";
 	$result=mysqli_query($link,$qry);
 	
 	//Check whether the query was successful or not
