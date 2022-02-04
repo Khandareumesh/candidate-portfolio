@@ -18,7 +18,9 @@
 <div class="col">
     <a class="btn btn-primary" href="Task-Management-master/index.php">online note sharing</a></div>
 </div>
-
+<div class="col">
+    <a class="btn btn-primary" href="candidate-portfolio\student_result\srms/dashboard.php">Student Result</a></div>
+</div>
 </div>
 
 
